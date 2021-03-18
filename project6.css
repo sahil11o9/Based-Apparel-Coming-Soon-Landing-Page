@@ -1,0 +1,118 @@
+html {
+  background-image: url(../All/bg-pattern-desktop.svg);
+}
+.top {
+  background-image: url(../All/logo.svg);
+  background-repeat: no-repeat;
+  height: 5rem;
+  width: 10rem;
+  display: inline-flex;
+  padding: 2rem;
+  margin: 3.5rem;
+  margin-left: 8rem;
+  margin-bottom: 0;
+}
+h1,
+p,
+input {
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  /* display: flex;
+    flex-direction: column; */
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.box1 {
+  text-align: center;
+}
+.box1 h1,
+p {
+  /* padding: 0; */
+  margin: 0;
+}
+h1 {
+  letter-spacing: 1rem;
+  text-align: center;
+  font-size: 3.5rem;
+}
+p {
+  text-align: left;
+  margin-left: 10rem;
+  margin-right: 14rem;
+  color: hsl(0, 36%, 70%);
+  margin-top: 1.6rem;
+  font-weight: 300;
+}
+p.alert{
+  color: red;
+}
+span {
+  font-weight: 100;
+  color: hsl(0, 36%, 70%);
+  letter-spacing: 1rem;
+}
+.dabbu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 10rem;
+}
+form {
+  display: inline-flex;
+  margin-left: 9.5rem;
+  margin-top: 2.8rem;
+}
+input[type="email"] {
+  border: grey solid 2px;
+  border-radius: 2rem;
+  padding: 1rem;
+  padding-right: 14.5rem;
+  overflow-x: hidden;
+  outline: none;
+  /* background: url(../All/icon-error.svg) no-repeat scroll 282px 11px; */
+  padding-left: 30px;
+  /* z-index: 2; */
+}
+input[type="email"]:hover {
+  border: hsl(0, 93%, 68%) solid 2px;
+  border-radius: 2rem;
+  outline: none;
+}
+input#gradient{
+  /* background: linear-gradient(135deg, hsl(0, 80%, 86%) , hsl(0, 74%, 74%)); */    
+}
+input.btn {
+  border-radius: 3rem;
+  height: 3rem;
+  width: 3rem;
+  background-image: url(../All/icon-arrow.svg);
+  background-color: hsl(0, 74%, 74%);
+  /* background: linear-gradient(135deg, hsl(0, 80%, 86%) , hsl(0, 74%, 74%)); */
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  z-index: 8;
+  padding: 1.6rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: -5rem;
+  outline: none;
+  cursor: pointer;
+}
+input.btn:hover {
+  /* background: linear-gradient(135deg, hsl(0, 80%, 86%), to hsl(0, 74%, 74%)); */
+  /* background: linear-gradient(135deg, hsl(0, 100%, 98%) , hsl(0, 36%, 70%)); */
+  /* background-image: url(../All/icon-arrow.svg); */
+  /* z-index: 3; */
+}
+.box2 img {
+  float: right;
+  width: 35rem;
+  height: auto;
+  /* padding-bottom: 12rem; */
+}
